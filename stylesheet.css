@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+#text {
+  font-family: Montserrat;
+}
+
+#text.header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
 #page-size {
   margin: auto;
   width: 50%;
@@ -45,7 +55,7 @@
   height: 108px;
 
   background: #f9fbff;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 #total-sales-box .text {
   font-family: Montserrat;
@@ -73,7 +83,7 @@ td {
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
-  line-height: 17px;
+  /* line-height: 17px; */
 
   text-align: center;
   color: #000000;
@@ -95,6 +105,16 @@ td {
 
   text-align: center;
 }
+#pms-rectangle .volume-tag {
+  text-align: left;
+  margin-left: 10%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
 
 #ago-rectangle {
   border-radius: 5px;
@@ -105,6 +125,16 @@ td {
 
   text-align: center;
 }
+#ago-rectangle .volume-tag {
+  text-align: left;
+  margin-left: 10%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
 
 #dpk-rectangle {
   border-radius: 5px;
@@ -113,4 +143,139 @@ td {
   height: 200px;
 
   text-align: center;
+}
+#dpk-rectangle .volume-tag {
+  text-align: left;
+  margin-left: 10%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+#tank-update-colour-block {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  height: 108px;
+
+  background-color: #f1f3f5;
+}
+
+#tank-update-colour-block .tank-block-text {
+  margin-top: 25px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  color: #000000;
+}
+
+#tank-block-icon {
+  margin-top: 10px;
+  float: left;
+  padding-left: 8%;
+  padding-right: 4%;
+}
+
+#tank-update-table {
+  width: 80%;
+  margin-left: 10%;
+  border-collapse: collapse;
+}
+
+#tank-update-table .img {
+  padding-top: 10px;
+}
+#tank-update-table tr {
+  line-height: 50px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+#tank-update-table .number {
+  font-weight: lighter;
+}
+
+#sales-analysis-colour-block {
+  display: flex;
+  align-items: center;
+  height: 108px;
+
+  background-color: #e9fac8;
+}
+
+#money-icon {
+  margin-top: 10px;
+  float: left;
+  padding-left: 8%;
+  padding-right: 4%;
+}
+
+#sales-analysis-colour-block .text {
+  margin-top: 25px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+#sales-analysis-summary-blocks {
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+
+#pms-sales-rectangle {
+  border-radius: 5px;
+  background-color: #fff5f5;
+  width: 30%;
+  margin-left: 15px;
+  margin-right: 20px;
+  height: 242px;
+
+  text-align: center;
+}
+
+#ago-sales-rectangle {
+  border-radius: 5px;
+  background-color: #ebfbee;
+  width: 30%;
+  height: 242px;
+  margin-right: 20px;
+
+  text-align: center;
+}
+
+#dpk-sales-rectangle {
+  border-radius: 5px;
+  background-color: #edf2ff;
+  width: 30%;
+  height: 242px;
+
+  text-align: center;
+}
+
+.data {
+  text-align: left;
+  margin-left: 10%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  /* line-height: 17px; */
+}
+
+#company-details {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 12px;
+
+  text-align: center;
+  color: #4b2d73;
 }
